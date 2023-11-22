@@ -141,7 +141,7 @@ export const useBotStore = create<BotStore>()(
     }),
     {
       name: "bot-store",
-      version: 1,
+      version: 3,
       migrate: (persistedState, version) => {
         const state = persistedState as BotState;
         if (version < 1) {

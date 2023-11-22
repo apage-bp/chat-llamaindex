@@ -37,7 +37,7 @@ async function createChatEngine(
       index = await getDataSource(serviceContext, datasource);
     }
     const retriever = index!.asRetriever();
-    retriever.similarityTopK = 5;
+    retriever.similarityTopK = 12;
 
     contextGenerator = new DefaultContextGenerator({ retriever });
   }

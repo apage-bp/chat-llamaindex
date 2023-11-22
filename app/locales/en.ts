@@ -137,8 +137,8 @@ const en = {
   },
 
   Welcome: {
-    Title: "Chat LlamaIndex",
-    SubTitle: "Create chat bots that know your data",
+    Title: "BiggyBot",
+    SubTitle: "Trained on BigPanda data",
     Quote:
       "“This tool has saved me countless hours of work and helped me apply AI features to my work faster than ever before.”",
     LoginLinkedinTitle: "Login with LinkedIn",

@@ -10,7 +10,7 @@
     "format:check": "prettier --check --ignore-path .gitignore app",
     "format": "prettier --write --ignore-path .gitignore app",
     "prepare": "husky install",
-    "generate": "node ./scripts/generate.mjs"
+    "generate": "node --max-old-space-size=4096 ./scripts/generate.mjs"
   },
   "dependencies": {
     "@fortaine/fetch-event-source": "^3.0.6",
