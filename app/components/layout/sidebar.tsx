@@ -23,7 +23,7 @@ export function SideBar(props: { className?: string }) {
           <div className="mb-5 flex justify-between gap-5 items-start">
             <div>
               <Typography.H1>{Locale.Welcome.Title}</Typography.H1>
-              <div className="text-sm text-muted-foreground">
+              <div className="text-sm text-muted-foreground mt-2">
                 {Locale.Welcome.SubTitle}
               </div>
             </div>
