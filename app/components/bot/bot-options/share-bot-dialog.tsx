@@ -46,7 +46,7 @@ export default function ShareBotDialogContent() {
   // FIXME: check dependency warning
   useEffect(() => {
     shareMutation.mutate(bot);
-  }, []);
+  }, [bot, shareMutation.mutate]);
 
   return (
     <DialogContent className="max-w-3xl">
