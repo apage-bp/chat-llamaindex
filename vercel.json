@@ -1,6 +1,6 @@
 {
   "functions": {
-    "app/api/llm": {
+    "app/api/*": {
       "maxDuration": 10
     }
   }
