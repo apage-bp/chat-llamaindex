@@ -169,6 +169,9 @@ devDependencies:
   '@types/node':
     specifier: ^20.5.9
     version: 20.5.9
+  '@types/papaparse':
+    specifier: ^5.3.14
+    version: 5.3.14
   '@types/pdf-parse':
     specifier: ^1.1.1
     version: 1.1.1
@@ -1620,6 +1623,12 @@ packages:
 
   /@types/node@20.5.9:
     resolution: {integrity: sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==}
+
+  /@types/papaparse@5.3.14:
+    resolution: {integrity: sha512-LxJ4iEFcpqc6METwp9f6BV6VVc43m6MfH0VqFosHvrUgfXiFe6ww7R3itkOQ+TCK6Y+Iv/+RnnvtRZnkc5Kc9g==}
+    dependencies:
+      '@types/node': 20.5.9
+    dev: true
 
   /@types/pdf-parse@1.1.1:
     resolution: {integrity: sha512-lDBKAslCwvfK2uvS1Uk+UCpGvw+JRy5vnBFANPKFSY92n/iEnunXi0KVBjPJXhsM4jtdcPnS7tuZ0zjA9x6piQ==}
