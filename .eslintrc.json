@@ -2,8 +2,10 @@
   "extends": "next/core-web-vitals",
   "plugins": ["prettier"],
   "rules": {
-    "no-unused-vars": ["warn", { "args": "none" }],
-    "@next/next/no-img-element": "off"
+    "no-unused-vars": "off",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-img-element": "off",
+    "@next/next/no-page-custom-font": "off"
   },
   "ignorePatterns": ["**/*.css"]
 }
