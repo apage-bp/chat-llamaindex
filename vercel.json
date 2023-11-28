@@ -1,12 +1,34 @@
 {
   "functions": {
     "api/**/*": {
-      "maxDuration": 10,
-      "runtime": "edge"
+      "maxDuration": 10
     },
     "app/api/**/*": {
-      "maxDuration": 10,
-      "runtime": "edge"
+      "maxDuration": 10
+    },
+    "/api/llm": {
+      "maxDuration": 10
+    },
+    "app/api/llm/": {
+      "maxDuration": 10
+    },
+    "/api/llm/*": {
+      "maxDuration": 10
+    },
+    "app/api/llm/*": {
+      "maxDuration": 10
+    },
+    "/api/llm/*.js": {
+      "maxDuration": 10
+    },
+    "app/api/llm/*.js": {
+      "maxDuration": 10
+    },
+    "/api/llm/*.ts": {
+      "maxDuration": 10
+    },
+    "app/api/llm/*.ts": {
+      "maxDuration": 10
     }
   }
 }
