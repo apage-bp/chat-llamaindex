@@ -3,9 +3,6 @@
     "app/api/**/*": {
       "maxDuration": 10
     },
-    "api/llm": {
-      "maxDuration": 10
-    },
     "app/api/llm/": {
       "maxDuration": 10
     },
