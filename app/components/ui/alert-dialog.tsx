@@ -10,11 +10,16 @@ const AlertDialog = AlertDialogPrimitive.Root;
 
 const AlertDialogTrigger = AlertDialogPrimitive.Trigger;
 
+interface ExtendedAlertDialogPortalProps
+  extends AlertDialogPrimitive.AlertDialogPortalProps {
+  className?: string;
+}
+
 const AlertDialogPortal = ({
   className,
   ...props
-}: AlertDialogPrimitive.AlertDialogPortalProps) => (
-  <AlertDialogPrimitive.Portal className={cn(className)} {...props} />
+}: ExtendedAlertDialogPortalProps) => (
+  <AlertDialogPrimitive.Portal className={className} {...props} />
 );
 AlertDialogPortal.displayName = AlertDialogPrimitive.Portal.displayName;
 
